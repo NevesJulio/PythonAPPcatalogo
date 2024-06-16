@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+
+
+header{
+    background-image: url(https://thumbs.dreamstime.com/z/abstract-digital-web-site-header-banner-background-technology-73179037.jpg?w=992);
+    background-size: 40%;
+    background-position: 150%;
+    margin: 0;
+    height: 8vh;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(184, 62, 38, 0.571);
+    box-shadow: 0 0 1rem black;
+    align-items: center;
+    opacity: 85%;
+    
+}
+#icone-no-canto {
+    width: 32px; /* Largura do ícone */
+    height: 32px; /* Altura do ícone */
+    position: fixed; /* Permite que o elemento permaneça fixo na tela */
+    top: 0; /* Coloca o elemento no topo da tela */
+    left: 0; /* Coloca o elemento no canto esquerdo da tela */
+    background-image: url(caminho_para_seu_icone.png); /* Define o ícone como plano de fundo */
+    background-size: cover; /* Ajusta o tamanho do ícone */
+    background-repeat: no-repeat; /* Impede a repetição do ícone */
+    z-index: 9999; /* Controla a sobreposição do elemento */
+}
+
+div{
+        display: flex;
+        margin: 23px;
+        margin-top: 10px;
+        justify-content: center;
+        align-items: center;
+}
+.botão-compra{
+    background-color: #434343;
+}
+.botões{
+        background: none;
+        border: none;
+        color:  #fff;
+        background-color: #80323b;
+        text-align: center;
+        justify-content: center;
+        list-style-type: none;
+        cursor: pointer;
+        margin-left:15px;
+        padding: 10px;
+        text-transform: uppercase;
+        font-weight: bold;
+        border-radius: 20px; 
+        text-decoration: none;
+        font-size: 16px;
+        border-width: 7px;
+}/*
+.botões:hover{
+    /*opacity: 65%;
+}*/
+
+body {
+    background-image: url(https://cdn.spacetelescope.org/archives/images/screen/heic0714g.jpg);
+    background-size: 30%;
+    background-repeat: repeat-y;
+    background-size: cover;
+    background-color: #472c34;
+    height: 100vh;
+    width: 100%;
+    display:block;
+    justify-content: center;
+    color: #434343;
+}
+
+main {
+    padding: 25px;
+    display: inline;
+    justify-content: center;
+    align-items: cente;
+}
+.botao-personalizado{
+    background: none;
+    border: none;
+    color:  #fff;
+    background-color: #742f37;
+    text-align: center;
+    justify-content: center;
+    list-style-type: none;
+    cursor: pointer;
+    margin-left:20px;
+    padding: 15px;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 20px; 
+    text-decoration: none;
+    font-size: 16px;
+
+
+}
+.cards {
+    color: #434343;
+    padding: 2em;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 50px;
+
+}
+
+.img-produto{
+    background-color: rgb(183, 184, 184);
+    border-radius: 2%;
+}
+.btn{
+    color: #434343;
+    border: none;
+    background-color: inherit;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    display: inline-block;
+    text-decoration: solid;
+}
+.list{
+    /*
+    background-color: rgba(240, 248, 255, 0.877);
+    border-radius: 5%;
+    display: flex;
+    backdrop-filter: blur(10px);
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 40px;
+    margin-right: 40px;
+    flex-basis: calc(25% - 20px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+    /* From https://css.glass */
+    border-radius: 5%;
+    display: flex;
+    backdrop-filter: blur(10px);
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 40px;
+    margin-right: 40px;
+    flex-basis: calc(25% - 20px);
+    background: rgba(255, 255, 255, 0.39);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(7.5px);
+    -webkit-backdrop-filter: blur(7.5px);
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    
+}
+
+.logo{
+    width: 40px;
+    height: 40px;
+    margin-left:20px;
+}
+.bloco-cartas{
+    display:  flex;
+}
+button{
+    margin-left: 40px;
+}

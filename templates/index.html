@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang = 'pt-br'>
+    <head>
+        <meta http-equiv="'UTF-8">
+        <meta charset="X-UA-Compatible" content="'IE=edge">
+        <meta name="viewport" content="'width=device-width, initial-scale=1.0">
+        <title>Catalogo de produtos</title>
+        <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+        <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/235/235359.png">
+        <link rel="elemento" href="C:\Users\Julio\Downloads\pngwing.png">
+    </head>
+    
+
+    <header>
+        <img src="https://cdn-icons-png.flaticon.com/512/235/235359.png" class ='logo'>
+        <div>
+            <li class="botões">Localização</li>
+            <li class="botões">Localização</li>
+            <li class="botões">Localização</li>
+            <li class="botões">Localização</li>
+        </div>
+    </header>
+    <body>
+        <div id="teste">
+        </div>
+        <main class="cards">
+            {% for i in nome[categorias[0]] %}
+            <li class="list">
+                <h3>{{ i.nome }}</h3>
+                <img src="{{i.imagens}}" width = '250' height = '250'>
+                <a href="{{i.imagens}}"  class="botao-personalizado">R${{i.preco}},00</a>
+            </li>
+            {% endfor %}
+
+        </main>
+
+        <footer>
+
+
+        </footer>
+
+    
+    </body>
+    <h4>Meu Gráfico</h1>
+    <img src='C:\Users\Julio\Desktop\Programacao\Planilha\grafico.png' alt="Gráfico">
+</html>
